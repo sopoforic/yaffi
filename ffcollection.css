@@ -1,0 +1,76 @@
+a.unread {
+    font-weight: bold;
+}
+
+section.chapter-text {
+    font-size: 200%;
+    max-width:34em;
+    margin:auto;
+    padding:0 1em;
+}
+
+div.fanficDetails {
+    max-width:60em;
+    margin:auto;
+    padding:0 1em;
+}
+
+.pageHeader {
+    height : 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerMenu ul {
+    padding-left: 0;
+    margin-left: none;
+}
+
+.headerMenu li, input, form {
+    list-style: none;
+    margin-left: 4px;
+    margin-right: 4px;
+    display: inline;
+    clear: none;
+}
+
+.menuRight {
+    float: right;
+}
+
+.menuLeft {
+    float: left;
+}
+
+.summaryBox {
+  padding-left: 1em;
+}
+
+.titleTd {
+  font-size: 125%;
+}
+
+.markReadButton {
+  background: green;
+  color: white;
+  border-radius: 4px;
+  font-size: 125%;
+}
+
+ul.commaList {
+  display: inline;
+  list-style: none;
+  padding: 0;
+}
+
+ul.commaList li {
+  display: inline;
+}
+
+ul.commaList li:after {
+  content: ", ";
+}
+
+ul.commaList li:last-child:after {
+  content: "";
+}
