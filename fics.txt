@@ -1,10 +1,10 @@
 ********************************************************************************
 *                           Yet Another Fanfic Index                           *
 *                                by Tracy Poff                                 *
-*                              Updated 2018-02-12                              *
+*                              Updated 2018-02-16                              *
 *                                                                              *
-*            Total Entries: 94, total pages 1284, total complete 89            *
-*                              To be added: 2009                               *
+*           Total Entries: 108, total pages 1760, total complete 101           *
+*                              To be added: 2082                               *
 *                                                                              *
 *             Please send errors/comments to tracy.poff@gmail.com              *
 ********************************************************************************
@@ -127,8 +127,7 @@ Indexed: 2018-02-09
 An article (with a diagram!) speculating on what the Vulcan heart might look
 like.
 
-Published in [Spockanalia
-#1](https://otherstuffexists.wordpress.com/2017/08/16/spockanalia-1/).
+Published in *Spockanalia* #1.
 
 Complete 1p
 --------------------------------------------------------------------------------
@@ -156,6 +155,18 @@ Indexed: 2018-02-09
 Akane uses her mallet in defense of the Titanic.
 
 Complete 1p
+--------------------------------------------------------------------------------
+Title: All Things Shall Be Peace
+Link: https://www.fanfiction.net/s/6278956/
+Author: Lov3the3vil
+Sources: Sailor Moon
+Characters: Tsukino Usagi, Tenoh Haruka, Kaioh Michiru
+Pairings: Haruka/Michiru
+Indexed: 2018-02-16
+
+Seeing Michiru talking to Mamoru, Haruka gets jealous.
+
+Complete 4pp
 --------------------------------------------------------------------------------
 Title: Also to a Vulcan
 Author: Devra Michele Langsam
@@ -225,6 +236,21 @@ for a reason?
 
 Dead 8pp
 --------------------------------------------------------------------------------
+Title: Caring For Kasumi
+Link: https://www.fanfiction.net/s/1809152/
+Author: HimuraAlucard
+Sources: Ranma 1/2
+Characters: Saotome Ranma, Tendou Kasumi
+Pairings: Kasumi/Ranma
+Categories: romance
+Indexed: 2018-02-15
+
+With the rest of the family out of the house, Kasumi and Ranma are left home
+alone for the weekend. Kasumi gets sick after she is caught out in the rain,
+and while Ranma cares for her they come to realize they care for each other.
+
+Complete 83pp
+--------------------------------------------------------------------------------
 Title: Cave-In
 Author: Claudia Jane Peyton
 Sources: Star Trek: The Original Series
@@ -279,6 +305,32 @@ Federation, writes a letter explaining why aliens cannot be trusted.
 Published in *Spockanalia* #4.
 
 Complete 1p
+--------------------------------------------------------------------------------
+Title: Dancing
+Link: https://www.fanfiction.net/s/3589430/
+Author: gabriel blessing
+Sources: Ranma 1/2
+Characters: Saotome Ranma, Hibiki Ryouga
+Indexed: 2018-02-15
+
+As Ranma's senses become more acute, he begins to detect the cosmic horrors
+that lurk at the edges of reality.
+
+Published in the nineties; certainly before 2001-09-27.
+
+Complete 16pp
+--------------------------------------------------------------------------------
+Title: Dear Foolish Little Brother
+Link: https://www.fanfiction.net/s/1799754/
+Author: solderini
+Sources: Naruto
+Characters: Uchiha Sasuke, Uchiha Itachi
+Categories: comedy
+Indexed: 2018-02-15
+
+Itachi and Sasuke carry on a correspondence.
+
+Complete 3pp
 --------------------------------------------------------------------------------
 Title: Destiny's Child
 Link: https://www.fanfiction.net/s/26926/
@@ -393,6 +445,49 @@ they're wrong."
 
 Complete 1p
 --------------------------------------------------------------------------------
+Title: Heirloom
+Link: https://www.fanfiction.net/s/221120/
+Author: Gray
+Sources: Ranma 1/2
+Characters: Saotome Ranma, Tendou Kasumi
+Indexed: 2018-02-15
+
+During one of Ranma's fights, Kasumi's most treasured possession, an urn given
+to her by her mother, is destroyed, putting their developing friendship in
+jeopardy. To cap off Ranma's terrible day, he is seriously injured that evening
+and returns home to find Tofu confessing his love to Kasumi.
+
+This story had potential, but died before the plot could take off.
+
+Dead 55pp
+--------------------------------------------------------------------------------
+Title: I'm Here
+Link: https://www.fanfiction.net/s/6887251/
+Author: Taka
+Sources: Ranma 1/2
+Characters: Saotome Ranma, Tendou Kasumi
+Indexed: 2018-02-16
+
+Akane and Ranma have grown apart, and Ranma's other fiancees and rivals have
+slowly left Nerima. Without the constant pressure, Ranma's skills have
+stagnated, so he intends to leave, after Akane goes away to college. But Kasumi
+doesn't want to be the only one left behind with an empty life, either.
+
+Complete 27pp
+--------------------------------------------------------------------------------
+Title: If Harry Really Did Go To The USA
+Link: https://www.fanfiction.net/s/6677363/
+Link: https://web.archive.org/web/20091023223313/http://www.geocities.com/Tokyo/Flats/5990/
+Author: LightningHunter
+Sources: Harry Potter
+Characters: Harry Potter
+Categories: parody, spamfic
+Indexed: 2018-02-15
+
+A parody of stories in which Harry emigrates to the US to escape his troubles.
+
+Complete 2pp
+--------------------------------------------------------------------------------
 Title: Just a Test
 Link: https://archives.eyrie.org/anime/Ranma/ranma.just-a-test.gz
 Author: Trunksette
@@ -404,6 +499,21 @@ Indexed: 2018-02-09
 Ranma has trouble with a particular question on a standardized test.
 
 Complete 1p
+--------------------------------------------------------------------------------
+Title: Kikuko
+Link: https://www.fanfiction.net/s/311488/
+Link: https://archives.eyrie.org/anime/Ranma/ranma.kikuko.gz
+Author: Cloud-Dreamer
+Sources: Ranma 1/2
+Characters: Saotome Ranma
+Pairings: Ranma/Tofu
+Indexed: 2018-02-15
+
+Ryouga seduces Akane after the failed wedding, so Ranma decides to make a clean
+break with them. With the aid of Dr. Tofu, Ranma creates a new life for herself
+as a woman.
+
+Complete 51pp
 --------------------------------------------------------------------------------
 Title: Kirk and Spock
 Author: Ruth Berman
@@ -497,6 +607,19 @@ girls to him.
 
 Complete 6pp
 --------------------------------------------------------------------------------
+Title: Loathing
+Link: https://www.fanfiction.net/s/3146381/
+Link: https://web.archive.org/web/20060430081509/http://www.fire.duncanz.com:80/
+Author: Serpentseeker
+Sources: Harry Potter
+Characters: Neville Longbottom
+Categories: bad
+Indexed: 2018-02-14
+
+Neville is unhappy with his weight.
+
+Complete 1p
+--------------------------------------------------------------------------------
 Title: Mass Effect: For the love of Edi (AU)
 Link: https://www.fanfiction.net/s/11809777/
 Author: Daniel Sullivan
@@ -580,6 +703,18 @@ On September 8, 1998, Mark McGwire hit a record-breaking 62nd home run. But
 where did the ball end up?
 
 Complete 1p
+--------------------------------------------------------------------------------
+Title: Only One Defining Moment Please
+Link: https://www.fanfiction.net/s/3351811/
+Author: ttchaku
+Sources: Harry Potter
+Characters: Harry Potter, Draco Malfoy
+Indexed: 2018-02-15
+
+Harry stumbles upon a dying Draco Malfoy during the final battle and he gives
+Harry some rather interesting information.
+
+Complete 7pp
 --------------------------------------------------------------------------------
 Title: Otaku No Microsoft!
 Link: https://archives.eyrie.org/anime/Ranma/ranma.onv.otaku-no-microsoft.gz
@@ -674,7 +809,6 @@ Complete 1p
 --------------------------------------------------------------------------------
 Title: Purest Snow and Crimson Blood
 Link: https://archives.eyrie.org/anime/Ranma/ranma.pome.purest-snow-and-crimson-blood.gz
-Link: https://web.archive.org/web/20130111200923/http://www.akane.org:80/heartsofice/
 Author: Luna Hinomura
 Sources: Ranma 1/2
 Categories: poem
@@ -711,6 +845,7 @@ Dead 15pp
 --------------------------------------------------------------------------------
 Title: Ranma Commits Suicide
 Link: https://archives.eyrie.org/anime/Ranma/ranma.ranma-commits-suicide.gz
+Link: http://web.archive.org/web/20071231112626/home.att.net/~dan_s.comments/Ranmas_Suicide.htm
 Author: Daniel Gibson
 Sources: Ranma 1/2
 Categories: bad
@@ -731,6 +866,22 @@ Indexed: 2018-02-13
 Ranma and Ukyou are happily married... with the help of a special 'spice'.
 
 Complete 1p
+--------------------------------------------------------------------------------
+Title: Ranma's Boyfriend
+Link: https://www.fanfiction.net/s/5941339/
+Author: DaisukiFox
+Sources: Ranma 1/2
+Characters: Saotome Ranma, Shampoo, Kuno Tatewaki, Hibiki Ryouga
+Pairings: Ranma/Ryouga, Kuno/Shampoo
+Indexed: 2018-02-14
+
+Ranma has a plan to rid himself of Kuno by convincing him that the pigtailed
+girl is in love with someone else. So what if she has to kiss Ryouga to sell
+it? And if at first you don't succeed...
+
+Sequel: Ryoga's Girlfriend
+
+Complete 208pp
 --------------------------------------------------------------------------------
 Title: Ranma's Only Lost Battle
 Link: https://archives.eyrie.org/anime/Ranma/ranma.xover.ranmas-only-lost-battle.gz
@@ -811,7 +962,7 @@ Published in *Impulse* #5.
 
 Complete 1p
 --------------------------------------------------------------------------------
-Title: Ryouga's Curse
+Title: Ryoga's Curse
 Link: https://archives.eyrie.org/anime/Ranma/ranma.ryougas-curse.gz
 Author: Rebeka Thomas
 Sources: Ranma 1/2
@@ -824,6 +975,17 @@ about honor.
 
 Complete 1p
 --------------------------------------------------------------------------------
+Title: Shared Secrets
+Link: https://www.fanfiction.net/s/2599815/
+Author: Rai-kun
+Sources: Ranma 1/2
+Characters: Saotome Ranma, Tendou Kasumi
+Indexed: 2018-02-15
+
+Ranma and Kasumi sneak away to a hotel to indulge their passion.
+
+Complete 8pp
+--------------------------------------------------------------------------------
 Title: Shocked Awake
 Link: https://www.fanfiction.net/s/665781/
 Author: Thrythlind
@@ -835,6 +997,18 @@ Ranma is out looking for a place to train when he spies a white robed figure in
 the abandoned lot.  Yuri.
 
 Dead 3pp
+--------------------------------------------------------------------------------
+Title: Skuld 95
+Author: Ed Sharpe
+Sources: Ah! My Goddess!
+Characters: Skuld
+Categories: spamfic, comedy, vanished
+Indexed: 2018-02-14
+
+Mara has disguised herself as Gill Bats in order to release Windows 69, a piece
+of software so buggy that it may destroy the universe.
+
+Complete 1p
 --------------------------------------------------------------------------------
 Title: Spock Shock
 Author: Sherna Comerford
@@ -1088,7 +1262,7 @@ Indexed: 2018-02-09
 An article offering an explanation to why Spock would lose to Kirk at 3-D
 chess: he loses on purpose, so the victory will put Kirk "into a frame of mind
 which is beneficial to his self-image, his efficiency rating, and the well-
-being of the crew in general." Logical!
+being of the crew in general."
 
 Published in *Spockanalia* #1.
 
@@ -1238,6 +1412,17 @@ Digging through Genma's pack, Ranma discovers a crystal that speaks to him:
 "Greetings Kal-el, I am Jor-el, your true father."
 
 Complete 1p
+--------------------------------------------------------------------------------
+Title: Untitled
+Author: H. Torrance Griffin
+Sources: Bubblegum Crisis, The Smurfs
+Categories: vanished
+Indexed: 2018-02-15
+
+Farmer Smurf discovers what looks like human power armor, but sized like a
+smurf. Inside is a girl with red-brown eyes.
+
+Dead 3pp
 --------------------------------------------------------------------------------
 Title: Variation On An Unoriginal Theme
 Author: Barbara Wenk
