@@ -1,10 +1,10 @@
 ********************************************************************************
 *                           Yet Another Fanfic Index                           *
 *                                by Tracy Poff                                 *
-*                              Updated 2018-02-16                              *
+*                              Updated 2018-02-19                              *
 *                                                                              *
-*           Total Entries: 108, total pages 1760, total complete 101           *
-*                              To be added: 2082                               *
+*           Total Entries: 118, total pages 1968, total complete 110           *
+*                              To be added: 2184                               *
 *                                                                              *
 *             Please send errors/comments to tracy.poff@gmail.com              *
 ********************************************************************************
@@ -62,6 +62,7 @@ The categories and pairings may be spoilers.
 --------------------------------------------------------------------------------
 Title: 11:11, or Chronophobia
 Link: https://archives.eyrie.org/anime/Ranma/ranma.11_11-or-chronophobia.gz
+Link: http://groups.google.com/groups?selm=7bkrvn$lkmr@umbc8.umbc.edu
 Link: https://web.archive.org/web/20070527072029/http://hometown.aol.com/ukyoukwnji/1111.htm
 Author: Ukyou Kuonji
 Sources: Ranma 1/2
@@ -91,6 +92,7 @@ Complete 1p
 Title: A Man I'll Never Be
 Link: https://www.fanfiction.net/s/5420237/
 Link: https://archives.eyrie.org/anime/Ranma/ranma.a-man-ill-never-be.gz
+Link: http://groups.google.com/groups?selm=199604120605.CAA12156@solaris.cc.vt.edu
 Author: n1ght3lf
 Sources: Ranma 1/2
 Characters: Saotome Ranma
@@ -104,6 +106,7 @@ Complete 3pp
 --------------------------------------------------------------------------------
 Title: A Martial Artist in Sunnydale
 Link: https://archives.eyrie.org/anime/Ranma/ranma.buffy.martial-artist-in-sunnydale.gz
+Link: http://groups.google.com/groups?selm=802vtd$1lhm@enews1.newsguy.com
 Author: Nightgazer333
 Sources: Ranma 1/2
 Characters: Hibiki Ryouga
@@ -131,8 +134,23 @@ Published in *Spockanalia* #1.
 
 Complete 1p
 --------------------------------------------------------------------------------
+Title: A Scandalous Proposal
+Link: https://www.fanfiction.net/s/4191023/
+Author: Narf-for-the-Garthoc
+Sources: Naruto
+Characters: Uzumaki Naruto, Haruno Sakura
+Pairings: Naruto/Sakura
+Categories: comedy
+Indexed: 2018-02-17
+
+Sakura and Naruto have been together for ten years, but he has never proposed
+to her. She has finally had enough of this, and confronts him.
+
+Complete 15pp
+--------------------------------------------------------------------------------
 Title: Akane Can Cook
 Link: https://archives.eyrie.org/anime/Ranma/ranma.akane-can-cook.gz
+Link: http://groups.google.com/groups?selm=85d2p9$nog$1@lios.gweep.bc.ca
 Author: Jack Staik
 Sources: Ranma 1/2
 Characters: Saotome Ranma, Tendou Akane
@@ -146,6 +164,7 @@ Complete 2pp
 --------------------------------------------------------------------------------
 Title: Akane Vs. The Iceberg
 Link: https://archives.eyrie.org/anime/Ranma/ranma.akane-vs-the-iceberg.gz
+Link: http://groups.google.com/groups?selm=86fhgh$std$1@lios.gweep.bc.ca
 Author: Richard Robinson
 Sources: Ranma 1/2
 Characters: Tendou Akane
@@ -222,6 +241,22 @@ Published in *Spockanalia* #5.
 
 Complete 1p
 --------------------------------------------------------------------------------
+Title: Better Late than Never
+Link: https://archives.eyrie.org/anime/Ranma/ranma.better-late-than-never.gz
+Link: http://groups.google.com/groups?selm=29a4l7$30a@bigboote.WPI.EDU
+Author: Paul A. Gallegos
+Sources: Ranma 1/2
+Characters: Saotome Ranma, Tendou Akane
+Categories: print, script
+Indexed: 2018-02-18
+
+Ranma has begun fainting whenever he insults Akane, even before she hits him.
+Is there a cure, or will he have to start being nicer to his fiancee?
+
+Published in the 1994 print collection *Not In Your Wildest Dreams*.
+
+Complete 11pp
+--------------------------------------------------------------------------------
 Title: Boiled Nyanniichuan
 Link: https://www.fanfiction.net/s/4372412/
 Author: Tangent
@@ -283,6 +318,7 @@ Complete 1p
 --------------------------------------------------------------------------------
 Title: Confession
 Link: https://archives.eyrie.org/anime/Ranma/ranma.confession.gz
+Link: http://groups.google.com/groups?selm=67lueh$207@camel15.mindspring.com
 Author: Scott Jamison
 Sources: Ranma 1/2
 Characters: Tendou Kasumi
@@ -320,6 +356,18 @@ Published in the nineties; certainly before 2001-09-27.
 
 Complete 16pp
 --------------------------------------------------------------------------------
+Title: Daydreams
+Link: https://archives.eyrie.org/anime/Ranma/ranma.daydreams.gz
+Link: http://groups.google.com/groups?selm=2uct5s$j8u@louie.udel.edu
+Author: Christian Gadeken
+Sources: Ranma 1/2
+Characters: Saotome Ranma, Tendou Akane, Shampoo, Kuno Kodachi, Kuonji Ukyou
+Indexed: 2018-02-18
+
+Ranma's admirers daydream about him.
+
+Complete 1p
+--------------------------------------------------------------------------------
 Title: Dear Foolish Little Brother
 Link: https://www.fanfiction.net/s/1799754/
 Author: solderini
@@ -334,7 +382,7 @@ Complete 3pp
 --------------------------------------------------------------------------------
 Title: Destiny's Child
 Link: https://www.fanfiction.net/s/26926/
-Link: https://archives.eyrie.org/anime/Ranma/Destinys-Child.gz
+Link: https://archives.eyrie.org/anime/Ranma/Destinys-Child
 Link: https://web.archive.org/web/20060430081509/http://www.fire.duncanz.com:80/dc/dc_index.htm
 Author: Fire
 Sources: Ranma 1/2, Sailor Moon
@@ -367,6 +415,7 @@ Complete 1p
 --------------------------------------------------------------------------------
 Title: Enemy of Women
 Link: https://archives.eyrie.org/anime/Ranma/ranma.enemy-of-women.gz
+Link: http://groups.google.com/groups?selm=8dfq2s$kuv$1@lios.gweep.bc.ca
 Author: Kwokinator
 Sources: Ranma 1/2
 Characters: Saotome Ranma
@@ -434,6 +483,7 @@ Complete 2pp
 --------------------------------------------------------------------------------
 Title: Half a Conversation: New Views
 Link: https://archives.eyrie.org/anime/Ranma/ranma.half-a-conversation.new-views.gz
+Link: http://groups.google.com/groups?selm=72pmub$ai9$1@news.ccit.arizona.edu
 Author: Cynthia Johnston
 Sources: Ranma 1/2
 Characters: Kuno Tatewaki
@@ -460,6 +510,19 @@ and returns home to find Tofu confessing his love to Kasumi.
 This story had potential, but died before the plot could take off.
 
 Dead 55pp
+--------------------------------------------------------------------------------
+Title: I Was Right All Along
+Link: https://www.fanfiction.net/s/3619747/
+Author: Gaming Ikari
+Sources: Ranma 1/2
+Characters: Saotome Ranma, Hibiki Ryouga
+Indexed: 2018-02-17
+
+Ryouga realizes that Ranma doesn't just survive the chaos around him--he loves
+it, encourages it. Ryouga can't bear to let Ranma keep making people miserable
+for the sake of having a challenge, but how can he beat him?
+
+Complete 16pp
 --------------------------------------------------------------------------------
 Title: I'm Here
 Link: https://www.fanfiction.net/s/6887251/
@@ -503,6 +566,7 @@ Complete 1p
 Title: Kikuko
 Link: https://www.fanfiction.net/s/311488/
 Link: https://archives.eyrie.org/anime/Ranma/ranma.kikuko.gz
+Link: http://groups.google.com/groups?selm=3C90C581.5E48184F@yahoo.com
 Author: Cloud-Dreamer
 Sources: Ranma 1/2
 Characters: Saotome Ranma
@@ -530,6 +594,19 @@ Published in *Spockanalia* #1.
 
 Complete 1p
 --------------------------------------------------------------------------------
+Title: Kiss and Yell
+Link: https://www.fanfiction.net/s/3305335/
+Author: Narf-for-the-Garthoc
+Sources: Naruto
+Characters: Uzumaki Naruto, Yamanaka Ino
+Pairings: Naruto/Ino
+Indexed: 2018-02-17
+
+Naruto has developed a more powerful variation on his Sexy no Jutsu that works
+on women. When he demonstrates it on Ino, things... develop.
+
+Complete 34pp
+--------------------------------------------------------------------------------
 Title: Klingon Intelligence Report
 Author: John Mansfield
 Sources: Star Trek: The Original Series
@@ -544,6 +621,7 @@ Complete 1p
 --------------------------------------------------------------------------------
 Title: Kunou Wipes Nerima Off the Map!
 Link: https://archives.eyrie.org/anime/Ranma/ranma.kunou-wipes-nerima-off-the-map.gz
+Link: http://groups.google.com/groups?selm=9jh9bv$1ff$1@lios.aq2.gweep.ca
 Author: Gendou Knepper
 Sources: Ranma 1/2, Slayers
 Characters: Lina Inverse, Kuno Tatewaki
@@ -569,6 +647,7 @@ Complete 1p
 --------------------------------------------------------------------------------
 Title: Language Lesson
 Link: https://archives.eyrie.org/anime/Ranma/ranma.language-lesson.gz
+Link: http://groups.google.com/groups?selm=LAW2-F139FcnhllN0px000150e3@hotmail.com
 Author: Small Pink Mouse
 Sources: Ranma 1/2
 Characters: Tendou Akane, Shampoo
@@ -583,6 +662,7 @@ Complete 1p
 Title: Learn to Stop Reading Into It
 Link: https://archives.eyrie.org/anime/Ranma/ranma.learn-to-stop.gz
 Link: https://www.fanfiction.net/s/1337775/
+Link: http://groups.google.com/groups?selm=6ia5tl$ouc$1@news.ccit.arizona.edu
 Author: Nikholas F. Toledo Zu
 Sources: Ranma 1/2
 Categories: spamfic, bad
@@ -693,6 +773,7 @@ Complete 2pp
 --------------------------------------------------------------------------------
 Title: Non-Reality 1/2
 Link: https://archives.eyrie.org/anime/Ranma/ranma.non-reality-one-half.gz
+Link: http://groups.google.com/groups?selm=karaohki.02-Oct-98.MN00A.3709@magister.apana.org.au
 Author: Cabbitcabbit
 Sources: Ranma 1/2
 Characters: Hibiki Ryouga
@@ -718,6 +799,7 @@ Complete 7pp
 --------------------------------------------------------------------------------
 Title: Otaku No Microsoft!
 Link: https://archives.eyrie.org/anime/Ranma/ranma.onv.otaku-no-microsoft.gz
+Link: http://groups.google.com/groups?selm=6oc0at$9i0$1@camel0.mindspring.com
 Author: Ed Becerra, Anand Rao
 Sources: Ranma 1/2
 Categories: bad, spamfic
@@ -728,8 +810,24 @@ drowned Microsoft founder.
 
 Complete 1p
 --------------------------------------------------------------------------------
+Title: Out of the Frying Pan
+Link: https://www.fanfiction.net/s/2538590/
+Author: Alathon
+Sources: Ah! My Goddess!, Ranma 1/2
+Characters: Saotome Ranma, Mara
+Indexed: 2018-02-17
+
+Ranma tells his mother about Akane sleeping with P-chan, and she is upset
+enough to demand that he honor the seppuku contract. Fortunately, Hild sends
+Mara to rescue Ranma at the last moment, with orders to keep him safe and bring
+him around to their way of thinking. So Ranma ends the night by moving into an
+apartment with Mara.
+
+Dead 108pp
+--------------------------------------------------------------------------------
 Title: Paws for Effect
 Link: https://archives.eyrie.org/anime/Ranma/ranma.paws-for-effect.gz
+Link: http://groups.google.com/groups?selm=7auf5q$m7b$1@remarQ.com
 Author: Cynthia Johnston
 Sources: Ranma 1/2
 Characters: Saotome Ranma
@@ -769,6 +867,7 @@ Complete 1p
 --------------------------------------------------------------------------------
 Title: Perverts?!
 Link: https://archives.eyrie.org/anime/Ranma/ranma.perverts.gz
+Link: http://groups.google.com/groups?selm=a02jdusrb0ov87gclui0rjeui6diotd67r@4ax.com
 Author: Edward Becerra
 Sources: Ranma 1/2
 Characters: Saotome Ranma, Tendou Akane, Tendou Soun
@@ -809,6 +908,7 @@ Complete 1p
 --------------------------------------------------------------------------------
 Title: Purest Snow and Crimson Blood
 Link: https://archives.eyrie.org/anime/Ranma/ranma.pome.purest-snow-and-crimson-blood.gz
+Link: http://groups.google.com/groups?selm=99t1mi$t62$1@nntp3.u.washington.edu
 Author: Luna Hinomura
 Sources: Ranma 1/2
 Categories: poem
@@ -831,9 +931,11 @@ Complete 2pp
 --------------------------------------------------------------------------------
 Title: Ranma 1/2 Version 3.1
 Link: https://archives.eyrie.org/anime/Ranma/ranma.3.1.gz
+Link: http://groups.google.com/groups?selm=1otr5dINNfg@geraldo.cc.utexas.edu
 Author: Christian Gadeken
 Sources: Ranma 1/2
 Characters: Saotome Ranma, Tendou Kasumi
+Categories: script
 Indexed: 2018-02-10
 
 Ranma hits his head and once again believes he is really a girl. Shampoo brings
@@ -845,6 +947,7 @@ Dead 15pp
 --------------------------------------------------------------------------------
 Title: Ranma Commits Suicide
 Link: https://archives.eyrie.org/anime/Ranma/ranma.ranma-commits-suicide.gz
+Link: http://groups.google.com/groups?selm=iPtub.283842$0v4.17853379@bgtnsc04-news.ops.worldnet.att.net
 Link: http://web.archive.org/web/20071231112626/home.att.net/~dan_s.comments/Ranmas_Suicide.htm
 Author: Daniel Gibson
 Sources: Ranma 1/2
@@ -855,8 +958,24 @@ A bad joke.
 
 Complete 1p
 --------------------------------------------------------------------------------
+Title: Ranma no Yume or Ranma's Dream
+Link: https://archives.eyrie.org/anime/Ranma/ranma.dream.gz
+Link: http://groups.google.com/groups?selm=2hn31h$j0t@bigboote.WPI.EDU
+Author: Patrick James Conley
+Sources: Ranma 1/2
+Characters: Saotome Ranma, Saotome Genma, Shampoo, Mousse, Hibiki Ryouga
+Indexed: 2018-02-18
+
+Shampoo sends a letter to Ranma offering him a free meal. On his way to the
+Nekohanten, he's joined by Ryouga, Mousse, and Genma, who want to take
+advantage of the free food, as well. They all eat the ramen Shampoo makes for
+Ranma, and that night, they all have unusual dreams.
+
+Complete 8pp
+--------------------------------------------------------------------------------
 Title: Ranma the Addict
 Link: https://archives.eyrie.org/anime/Ranma/ranma.ranma-the-addict.gz
+Link: http://groups.google.com/groups?selm=8vha90$6o7$1@nnrp1.deja.com
 Author: Mike Counts
 Sources: Ranma 1/2
 Characters: Saotome Ranma, Kuonji Ukyou
@@ -864,6 +983,19 @@ Pairings: Ranma/Ukyou
 Indexed: 2018-02-13
 
 Ranma and Ukyou are happily married... with the help of a special 'spice'.
+
+Complete 1p
+--------------------------------------------------------------------------------
+Title: Ranma's Birthday
+Link: https://www.fanfiction.net/s/423683/
+Link: https://archives.eyrie.org/anime/Ranma/ranma.ranmas-birthday.gz
+Link: http://groups.google.com/groups?selm=shihlin.02-Sep-98.MN00A.3647@magister.apana.org.au
+Author: Sining
+Sources: Ranma 1/2
+Characters: Saotome Ranma
+Indexed: 2018-02-17
+
+Only one person has remembered Ranma's birthday--but one can be enough.
 
 Complete 1p
 --------------------------------------------------------------------------------
@@ -910,6 +1042,7 @@ Complete 1p
 --------------------------------------------------------------------------------
 Title: Regrets after it's too late
 Link: https://archives.eyrie.org/anime/Ranma/ranma.regrets-after-its-too-late.gz
+Link: http://groups.google.com/groups?selm=5et9en$9h2@camel1.mindspring.com
 Author: Neil Reynolds
 Sources: Ranma 1/2
 Characters: Saotome Ranma, Tendou Akane
@@ -922,6 +1055,7 @@ Complete 1p
 --------------------------------------------------------------------------------
 Title: Reiji's Anime Joke Time Dai IchiBan
 Link: https://archives.eyrie.org/anime/Ranma/ranma.joke.reijis-anime-joke.gz
+Link: http://groups.google.com/groups?selm=4ivm6i$rma@usenet5.interramp.com
 Author: Reiji Muskett
 Sources: Ranma 1/2
 Categories: bad
@@ -964,6 +1098,7 @@ Complete 1p
 --------------------------------------------------------------------------------
 Title: Ryoga's Curse
 Link: https://archives.eyrie.org/anime/Ranma/ranma.ryougas-curse.gz
+Link: http://groups.google.com/groups?selm=KOsb3.1315$0d4.82751@monger.newsread.com
 Author: Rebeka Thomas
 Sources: Ranma 1/2
 Characters: Saotome Ranma, Hibiki Ryouga
@@ -1054,6 +1189,18 @@ Published in *Spockanalia* #1.
 
 Complete 1p
 --------------------------------------------------------------------------------
+Title: Stop Me If You've Heard This
+Link: https://web.archive.org/web/20050308220648/http://members.aol.com:80/talswapr/swap01.html
+Author: Taleswapper
+Sources: Ranma 1/2
+Categories: comedy
+Indexed: 2018-02-17
+
+A man tells his co-worker a joke featuring a man named Tendo and his three
+daughters.
+
+Complete 4pp
+--------------------------------------------------------------------------------
 Title: Straw Death
 Author: Lee Burwasser
 Sources: Star Trek: The Original Series
@@ -1068,6 +1215,7 @@ Complete 1p
 --------------------------------------------------------------------------------
 Title: Take Off My Clothes
 Link: https://archives.eyrie.org/anime/Ranma/ranma.take-off-my-clothes.gz
+Link: http://groups.google.com/groups?selm=78su0n$8k4$1@remarQ.com
 Author: Andy Wennersten
 Sources: Ranma 1/2
 Characters: Kuno Kodachi
@@ -1120,6 +1268,7 @@ Complete 9pp
 --------------------------------------------------------------------------------
 Title: The Bet - Iinazuke Sankai Suru
 Link: https://archives.eyrie.org/anime/Ranma/ranma.iinazuke-sankai-suru.gz
+Link: http://groups.google.com/groups?selm=6uephd$2bv$1@supernews.com
 Author: Gregg 'MetroAnime' Sharp
 Sources: Ranma 1/2
 Characters: Saotome Ranma, Tendou Kasumi, Kuonji Ukyou
@@ -1136,6 +1285,7 @@ Complete 10pp
 --------------------------------------------------------------------------------
 Title: The Blue Blunder of Furinkan High
 Link: https://archives.eyrie.org/anime/Ranma/ranma.spamfic.the-blue-blunder-of-furinkan-high.gz
+Link: http://groups.google.com/groups?selm=vi0fnenjt5kq79@corp.supernews.com
 Author: Mouse
 Sources: Ranma 1/2
 Characters: Kuno Tatewaki
@@ -1222,6 +1372,7 @@ Complete 1p
 Title: The Tendou Bunch
 Link: https://archives.eyrie.org/anime/Ranma/ranma.tendou-bunch.gz
 Link: https://www.fanfiction.net/s/299141/
+Link: http://groups.google.com/groups?selm=3S4f3.2335$8e5.180383@monger.newsread.com
 Author: Bill Morse
 Sources: Ranma 1/2, The Brady Bunch
 Characters: Tendou Soun
@@ -1251,6 +1402,18 @@ It's an interesting exercise, but not to my taste as poetry.
 Published in *Spockanalia* #1.
 
 Complete 1p
+--------------------------------------------------------------------------------
+Title: The Voice of Experience
+Link: https://web.archive.org/web/20031206151119/http://enterprise.mathematik.uni-essen.de:80/~bastian/Ranma/experience.html
+Author: Sebastian Weinberg
+Sources: Ranma 1/2
+Characters: Saotome Ranma
+Pairings: Ranma/Akane
+Indexed: 2018-02-17
+
+An old woman gives a young martial artist advice about his multiple fiancees.
+
+Complete 5pp
 --------------------------------------------------------------------------------
 Title: The Vulcan Gambit
 Author: Shirley Meech
@@ -1389,6 +1552,7 @@ Complete 1p
 --------------------------------------------------------------------------------
 Title: Trapped
 Link: https://archives.eyrie.org/anime/Ranma/ranma.trapped.gz
+Link: http://groups.google.com/groups?selm=5akl2v$gqi@viper.shadow.net
 Author: Scott Jamison
 Sources: Ranma 1/2
 Characters: Saotome Ranma
@@ -1402,6 +1566,7 @@ Complete 1p
 --------------------------------------------------------------------------------
 Title: True Origins
 Link: https://archives.eyrie.org/anime/Ranma/ranma.dc.true-orgins.gz
+Link: http://groups.google.com/groups?selm=K9Lg7.6$f01.13188@news3.rdc1.on.home.com
 Author: Dire One
 Sources: Ranma 1/2
 Characters: Saotome Ranma
@@ -1518,6 +1683,7 @@ Complete 1p
 --------------------------------------------------------------------------------
 Title: What Happened?
 Link: https://archives.eyrie.org/anime/Ranma/ranma.what-happened.gz
+Link: http://groups.google.com/groups?selm=gN6c3.2425$0d4.129266@monger.newsread.com
 Link: https://web.archive.org/web/20091021091303/http://geocities.com/Tokyo/Flats/5990/trapped.htm
 Author: Jack Staik
 Sources: Ranma 1/2
@@ -1530,6 +1696,7 @@ Complete 1p
 --------------------------------------------------------------------------------
 Title: What If... The Fight
 Link: https://archives.eyrie.org/anime/Ranma/ranma.what-if.the-fight.gz
+Link: http://groups.google.com/groups?selm=930945096.460.40@news.remarQ.com
 Link: http://homepages.ihug.co.nz/~jaelle/fight.htm
 Author: Jaelle
 Sources: Ranma 1/2

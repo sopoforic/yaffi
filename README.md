@@ -18,10 +18,10 @@ The RAAC archive (a copy of which can be found
 [here](https://archives.eyrie.org/anime/)) is another major resource for
 populating this index. As an homage to Rakhal's Penultimate Ranma Fanfic Index,
 it is a goal of YAFFI to eventually index the entire Ranma section. Of
-approximately 2400 stories in the Ranma section, 36 are
+approximately 2400 stories in the Ranma section, 40 are
 currently present in the index.
 
-The current version of this index was last updated on 2018-02-16 and
-contains 108 fanfics (101 complete),
-totalling 1760 pages. In addition, there are
-2082 fanfics queued to be added in future updates.
+The current version of this index was last updated on 2018-02-19 and
+contains 118 fanfics (110 complete),
+totalling 1968 pages. In addition, there are
+2184 fanfics queued to be added in future updates.
