@@ -146,57 +146,57 @@ $( document ).ready(
         app.view = 'index';
         app.number = null;
       }
-      if (app.view === 'index') {
-        window.title = 'Yet Another Fanfic Index - YAFFI';
-      } else if (app.view === 'fanfic') {
-        if (number in app.fanfics) {
-          window.title = app.fanfics[number].title.concat(' - YAFFI');
+      if (app.view === 'fanfic') {
+        if (app.number in app.fanfics) {
+          document.title = app.fanfics[app.number].title.concat(' - YAFFI');
         }
         else {
-          window.title = '404 - YAFFI';
+          document.title = '404 - YAFFI';
         }
       } else if (app.view === 'author') {
-        if (number in app.authors) {
-          window.title = app.authors[number].name.concat(' - YAFFI');
+        if (app.number in app.authors) {
+          document.title = app.authors[app.number].name.concat(' - YAFFI');
         }
         else {
-          window.title = '404 - YAFFI';
+          document.title = '404 - YAFFI';
         }
       } else if (app.view === 'source') {
-        if (number in app.sources) {
-          window.title = app.sources[number].name.concat(' - YAFFI');
+        if (app.number in app.sources) {
+          document.title = app.sources[app.number].name.concat(' - YAFFI');
         }
         else {
-          window.title = '404 - YAFFI';
+          document.title = '404 - YAFFI';
         }
       } else if (app.view === 'character') {
-        if (number in app.characters) {
-          window.title = app.characters[number].name.concat(' - YAFFI');
+        if (app.number in app.characters) {
+          document.title = app.characters[app.number].name.concat(' - YAFFI');
         }
         else {
-          window.title = '404 - YAFFI';
+          document.title = '404 - YAFFI';
         }
       } else if (app.view === 'pairing') {
-        if (number in app.pairings) {
-          window.title = app.pairings[number].name.concat(' - YAFFI');
+        if (app.number in app.pairings) {
+          document.title = app.pairings[app.number].name.concat(' - YAFFI');
         }
         else {
-          window.title = '404 - YAFFI';
+          document.title = '404 - YAFFI';
         }
       } else if (app.view === 'category') {
-        if (number in app.categories) {
-          window.title = app.categories[number].name.concat(' - YAFFI');
+        if (app.number in app.categories) {
+          document.title = app.categories[app.number].name.concat(' - YAFFI');
         }
         else {
-          window.title = '404 - YAFFI';
+          document.title = '404 - YAFFI';
         }
       } else if (app.view === 'week') {
-        if (number in app.weeks) {
-          window.title = app.weeks[number].name.concat(' - YAFFI');
+        if (app.number in app.weeks) {
+          document.title = app.number.concat(' - YAFFI');
         }
         else {
-          window.title = '404 - YAFFI';
+          document.title = '404 - YAFFI';
         }
+      } else {
+        document.title = 'Yet Another Fanfic Index - YAFFI';
       }
     }
 
