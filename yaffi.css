@@ -1,14 +1,3 @@
-a.unread {
-    font-weight: bold;
-}
-
-section.chapter-text {
-    font-size: 200%;
-    max-width:34em;
-    margin:auto;
-    padding:0 1em;
-}
-
 div.fanficDetails {
     max-width:60em;
     margin:auto;
@@ -42,21 +31,6 @@ div.fanficDetails {
     float: left;
 }
 
-.summaryBox {
-  padding-left: 1em;
-}
-
-.titleTd {
-  font-size: 125%;
-}
-
-.markReadButton {
-  background: green;
-  color: white;
-  border-radius: 4px;
-  font-size: 125%;
-}
-
 ul.commaList {
   display: inline;
   list-style: none;
@@ -73,4 +47,18 @@ ul.commaList li:after {
 
 ul.commaList li:last-child:after {
   content: "";
+}
+
+th {
+  white-space: nowrap;
+  vertical-align: top;
+  text-align: left;
+}
+
+td.description p:first-child {
+  margin-top: 0;
+}
+
+td.description p:last-child {
+  margin-bottom : 0;
 }

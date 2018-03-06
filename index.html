@@ -3,7 +3,13 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="stylesheet" type="text/css" href="/yaffi.css">
-    <title>Yet Another Fanfic Index</title>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+    <script src="/yaffi.js"></script>
+    <title>Yet Another Fanfic Index - YAFFI</title>
   </head>
   <body>
       <div class="pageHeader">
@@ -11,49 +17,192 @@
       <div class="headerMenu">
           <div class="menuLeft">
               <ul>
-                  <li><a href="/index.html">Index</a></li>
-                  <li><a href="/categories.html">Categories</a></li>
-                  <li><a href="/sources.html">Sources</a></li>
-                  <li><a href="/authors.html">Authors</a></li>
+                  <li><a href="#index">Index</a></li>
+                  <li><a href="#list-categories">Categories</a></li>
+                  <li><a href="#list-sources">Sources</a></li>
+                  <li><a href="#list-authors">Authors</a></li>
               </ul>
           </div>
       </div>
       
   </div>
   <div class="pageContent">
-    
-<p>
-  This site provides a listing of some fanfiction that I've read: a summary,
-  some details, and, where possible, a link to find it online. Many of the fics
-  listed are quite old--from before the turn of the century, even--so a handy
-  web link is not always available. Links into the Wayback Machine or elsewhere
-  will be provided whenever I can find them.
-</p>
-<p>
-  This project was inspired by The Penultimate Ranma Fanfic Index (which is,
-  sadly, defunct) and similar resources of yesteryear. A debt of gratitude is
-  also owed to <a href="http://vffa.ficfan.org/">The Vanished FanFic Archive</a>
-  which has related goals.
-</p>
-<p>
-  If you are curious, you may read some more information
-  <a href="/about.html">about YAFFI</a>. If you wish to report errors or
-  omissions, you may
-  <a href="https://github.com/sopoforic/yaffi/issues/new">file an issue</a> on
-  github.
-</p>
-<p>
-  The current version of this index was last updated on 2018-02-19 and
-  contains 118 fanfics (110 complete),
-  totalling 1968 pages. In addition, there are
-  2184 fanfics queued to be added in future updates.
-</p>
-<h1>Recently added fanfics, by week</h1>
-<ul>
-  <li><a href="/updates/added_2018-W07.html">2018-02-18</a> (29 additions)</li>
-  <li><a href="/updates/added_2018-W06.html">2018-02-11</a> (89 additions)</li>
-</ul>
-
+    <div id="app">
+  <template v-if="view === 'index'">
+    <p>
+      This site provides a listing of some fanfiction that I've read: a summary,
+      some details, and, where possible, a link to find it online. Many of the fics
+      listed are quite old--from before the turn of the century, even--so a handy
+      web link is not always available. Links into the Wayback Machine or elsewhere
+      will be provided whenever I can find them.
+    </p>
+    <p>
+      This project was inspired by The Penultimate Ranma Fanfic Index (which is,
+      sadly, defunct) and similar resources of yesteryear. A debt of gratitude is
+      also owed to <a href="http://vffa.ficfan.org/">The Vanished FanFic Archive</a>
+      which has related goals.
+    </p>
+    <p>
+      If you are curious, you may read some more information
+      <a href="#about">about YAFFI</a>. If you wish to report errors or
+      omissions, you may
+      <a href="https://github.com/sopoforic/yaffi/issues/new">file an issue</a> on
+      github.
+    </p>
+    <p>
+      The current version of this index was last updated on {{stats.today}} and
+      contains {{stats.total_fics}} fanfics ({{stats.total_complete}} complete),
+      totalling {{stats.total_pages}} pages. In addition, there are
+      {{stats.total_tba}} fanfics queued to be added in future updates.
+    </p>
+    <h1>Recently added fanfics, by week</h1>
+    <ul>
+      <li v-for="week in Object.keys(weeks).slice().sort(function(a, b) { return a < b })">
+        <a :href="'#week-'.concat(week)">{{weeks[week].end}}</a> ({{weeks[week].count}} additions)
+      </li>
+    </ul>
+  </template>
+  <template v-if="view === 'about'">
+    <p>
+      This project was inspired by The Penultimate Ranma Fanfic Index (which is,
+      sadly, defunct) and similar resources of yesteryear. A debt of gratitude is
+      also owed to <a href="http://vffa.ficfan.org/">The Vanished FanFic Archive</a>
+      which has related goals.
+    </p>
+    <p>
+      A particular focus of YAFFI is older fanfiction that is less visible on
+      today's internet. As such, some fanfiction, such as that published in
+      fanzines, will be listed even if no copy is available on the web.
+    </p>
+    <p>
+      The RAAC archive (a copy of which can be found
+      <a href="https://archives.eyrie.org/anime/">here</a>) is another major
+      resource for populating this index. As an homage to Rakhal's Penultimate Ranma
+      Fanfic Index, it is a goal of YAFFI to eventually index the entire Ranma
+      section. Of approximately 2400 stories in the Ranma section,
+      {{stats.raac_ranma}} are currently present in the index.
+    </p>
+    <p>
+      The current version of this index was last updated on {{stats.today}} and
+      contains {{stats.total_fics}} fanfics ({{stats.total_complete}} complete),
+      totalling {{stats.total_pages}} pages. In addition, there are
+      {{stats.total_tba}} fanfics queued to be added in future updates.
+    </p>
+  </template>
+  <template v-if="view === 'list' && number === 'sources'">
+    <ul>
+        <li v-for="i in Object.keys(sources).slice().sort(function (a, b) { return sources[a].name.localeCompare(sources[b].name, {sensitivity: 'base'}) })">
+          <a :href="'#source-'.concat(i)">{{sources[i].name}}</a>
+        </li>
+    </ul>
+  </template>
+  <template v-if="view === 'list' && number === 'authors'">
+    <ul>
+        <li v-for="i in Object.keys(authors).slice().sort(function (a, b) { return authors[a].name.localeCompare(authors[b].name, {sensitivity: 'base'}) })">
+          <a :href="'#author-'.concat(i)">{{authors[i].name}}</a>
+        </li>
+    </ul>
+  </template>
+  <template v-if="view === 'list' && number === 'categories'">
+    <ul>
+        <li v-for="i in Object.keys(categories).slice().sort(function (a, b) { return categories[a].name.localeCompare(categories[b].name, {sensitivity: 'base'}) })">
+          <a :href="'#category-'.concat(i)">{{categories[i].name}}</a>
+        </li>
+    </ul>
+  </template>
+  <template v-if="view === 'week'">
+    <p>During the week ending {{weeks[number].end}}, there were {{weeks[number].count}} fanfics added to this index.</p>
+  </template>
+  <template v-if="view === 'author'">
+    <h1 id="author-name">
+      {{ authors[number].name }}
+      <template v-if="authors[number].other_names !== null">
+        <br />
+        <small>AKA: {{authors[number].other_names}}</small>
+      </template>
+    </h1>
+    <div v-if="authors[number].description !== null" v-html="authors[number].description" />
+    <template v-if="authors[number].links.length > 0">
+      <h2>Links</h2>
+      <ul>
+        <li v-for="l in authors[number].links">
+          <a :href="l.url">{{l.title}}</a>
+        </li>
+      </ul>
+    </template>
+  </template>
+  <template v-if="view === 'category'">
+    <h1 id="category-name">{{ categories[number].name }}</h1>
+    <div v-if="categories[number].description !== null" v-html="categories[number].description" />
+  </template>
+  <template v-if="view === 'character'">
+    <h1 id="character-name">{{ characters[number].name }}</h1>
+    <div v-if="characters[number].description !== null" v-html="characters[number].description" />
+    <section v-if="characters[character].pairings.length > 0">
+      <h2>Pairings</h2>
+      <ul>
+        <li v-for="p in characters[number].pairings.slice().sort(function (a, b) {return pairings[a].name.localeCompare(pairings[b].name, {sensitivity: 'base'})})">
+          <a :href="'#pairing-'.concat(p)">{{pairings[p].name}}</a>
+        </li>
+      </ul>
+    </section>
+    <section v-if="characters[number].categories.length > 0">
+      <h2>Categories</h2>
+      <ul>
+        <li v-for="c in characters[number].categories.slice().sort(function (a, b) {return categories[a].name.localeCompare(categories[b].name, {sensitivity: 'base'})})">
+          <a :href="'#category-'.concat(c)">{{categories[c].name}}</a>
+        </li>
+      </ul>
+    </section>
+  </template>
+  <template v-if="view === 'pairing'">
+    <h1 id="pairing-name">{{ pairings[number].name }}<br />
+      <small>
+        <ul class="commaList">
+          <li v-for="c in pairings[number].characters.slice().sort(function (a, b) {return characters[a].name.localeCompare(characters[b].name, {sensitivity: 'base'})})">
+            <a :href="'#character-'.concat(c)">{{characters[c].name}}</a>
+          </li>
+        </ul>
+      </small></h1>
+    <div v-if="pairings[number].description !== null" v-html="pairings[number].description" />
+  </template>
+  <template v-if="view === 'source'">
+    <h1 id="source-name">{{ sources[number].name }}</h1>
+    <div v-if="sources[number].description !== null" v-html="sources[number].description" />
+    <section v-if="sources[number].characters.length > 0">
+      <h2>Characters</h2>
+      <ul class="commaList">
+        <li v-for="c in sources[number].characters.slice().sort(function (a, b) {return characters[a].name.localeCompare(characters[b].name, {sensitivity: 'base'})})">
+          <a :href="'#character-'.concat(c)">{{characters[c].name}}</a>
+        </li>
+      </ul>
+    </section>
+    <section v-if="sources[number].categories.length > 0">
+      <h2>Categories</h2>
+      <ul>
+        <li v-for="c in sources[number].categories.slice().sort(function (a, b) {return categories[a].name.localeCompare(categories[b].name, {sensitivity: 'base'})})">
+          <a :href="'#category-'.concat(c)">{{categories[c].name}}</a>
+        </li>
+      </ul>
+    </section>
+  </template>
+  <template v-if="view === 'fanfic' && !(number in fanfics)">
+    <p>
+      That fanfic is not yet listed in YAFFI.
+    </p>
+  </template>
+  <fic-div
+    v-for="i in Object.keys(fanfics).slice().sort(function (a, b) { return fanfics[a].title.localeCompare(fanfics[b].title, {sensitivity: 'base'}) })"
+    v-if="ficviews.includes(view) && shouldDisplay(i)"
+    :key="i"
+    :fanfic="fanfics[i]"
+    :authors="authors"
+    :sources="sources"
+    :characters="characters"
+    :pairings="pairings"
+    :categories="categories">
+  </fic-div>
+</div>
   </div>
   </body>
 </html>
