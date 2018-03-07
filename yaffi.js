@@ -83,51 +83,56 @@ Vue.component('fic-div', {
 `
 });
 
-$( document ).ready(
-  function() {
-    var app = new Vue({
-      el: '#app',
-      data: {
-        fanfics: [],
-        authors: [],
-        sources: [],
-        characters: [],
-        pairings: [],
-        categories: [],
-        view: 'index',
-        number: null,
-        weeks: {},
-        stats: {},
-        ficviews: ['fanfic', 'author', 'source', 'character', 'pairing', 'category', 'week'],
-        intviews: ['fanfic', 'author', 'source', 'character', 'pairing', 'category'],
-      },
-      methods: {
-        shouldDisplay(fanficId) {
-          if (this.number === null || (this.view === 'fanfic' && this.number == fanficId)) {
-            return true;
-          }
-          if (this.view === 'author' && this.fanfics[fanficId].authors.includes(this.number)) {
-            return true;
-          }
-          if (this.view === 'source' && this.fanfics[fanficId].sources.includes(this.number)) {
-            return true;
-          }
-          if (this.view === 'character' && this.fanfics[fanficId].characters.includes(this.number)) {
-            return true;
-          }
-          if (this.view === 'pairing' && this.fanfics[fanficId].pairings.includes(this.number)) {
-            return true;
-          }
-          if (this.view === 'category' && this.fanfics[fanficId].categories.includes(this.number)) {
-            return true;
-          }
-          if (this.view === 'week' && this.fanfics[fanficId].week === this.number) {
-            return true;
-          }
-          return false;
-        },
+var app = new Vue({
+  data: {
+    fanfics: [],
+    authors: [],
+    sources: [],
+    characters: [],
+    pairings: [],
+    categories: [],
+    view: 'index',
+    number: null,
+    weeks: {},
+    stats: {},
+    ficviews: ['fanfic', 'author', 'source', 'character', 'pairing', 'category', 'week'],
+    intviews: ['fanfic', 'author', 'source', 'character', 'pairing', 'category'],
+  },
+  methods: {
+    shouldDisplay(fanficId) {
+      if (this.number === null || (this.view === 'fanfic' && this.number == fanficId)) {
+        return true;
       }
-    });
+      if (this.view === 'author' && this.fanfics[fanficId].authors.includes(this.number)) {
+        return true;
+      }
+      if (this.view === 'source' && this.fanfics[fanficId].sources.includes(this.number)) {
+        return true;
+      }
+      if (this.view === 'character' && this.fanfics[fanficId].characters.includes(this.number)) {
+        return true;
+      }
+      if (this.view === 'pairing' && this.fanfics[fanficId].pairings.includes(this.number)) {
+        return true;
+      }
+      if (this.view === 'category' && this.fanfics[fanficId].categories.includes(this.number)) {
+        return true;
+      }
+      if (this.view === 'week' && this.fanfics[fanficId].week === this.number) {
+        return true;
+      }
+      return false;
+    },
+  },
+  created: function() {
+    const viewmap = {
+      fanfic: ['fanfics', 'title'],
+      author: ['authors', 'name'],
+      source: ['sources', 'name'],
+      character: ['characters', 'name'],
+      pairing: ['pairings', 'name'],
+      category: ['categories', 'name']
+    }
 
     function onHashchange() {
       hash = window.location.hash.substr(1);
@@ -146,48 +151,9 @@ $( document ).ready(
         app.view = 'index';
         app.number = null;
       }
-      if (app.view === 'fanfic') {
-        if (app.number in app.fanfics) {
-          document.title = app.fanfics[app.number].title.concat(' - YAFFI');
-        }
-        else {
-          document.title = '404 - YAFFI';
-        }
-      } else if (app.view === 'author') {
-        if (app.number in app.authors) {
-          document.title = app.authors[app.number].name.concat(' - YAFFI');
-        }
-        else {
-          document.title = '404 - YAFFI';
-        }
-      } else if (app.view === 'source') {
-        if (app.number in app.sources) {
-          document.title = app.sources[app.number].name.concat(' - YAFFI');
-        }
-        else {
-          document.title = '404 - YAFFI';
-        }
-      } else if (app.view === 'character') {
-        if (app.number in app.characters) {
-          document.title = app.characters[app.number].name.concat(' - YAFFI');
-        }
-        else {
-          document.title = '404 - YAFFI';
-        }
-      } else if (app.view === 'pairing') {
-        if (app.number in app.pairings) {
-          document.title = app.pairings[app.number].name.concat(' - YAFFI');
-        }
-        else {
-          document.title = '404 - YAFFI';
-        }
-      } else if (app.view === 'category') {
-        if (app.number in app.categories) {
-          document.title = app.categories[app.number].name.concat(' - YAFFI');
-        }
-        else {
-          document.title = '404 - YAFFI';
-        }
+
+      if (app.view === 'index') {
+        document.title = 'Yet Another Fanfic Index - YAFFI';
       } else if (app.view === 'week') {
         if (app.number in app.weeks) {
           document.title = app.number.concat(' - YAFFI');
@@ -195,10 +161,20 @@ $( document ).ready(
         else {
           document.title = '404 - YAFFI';
         }
+      } else if (app.view === 'list') {
+        document.title = 'List '.concat(app.number).concat(' - YAFFI');
+      } else if (app.view in viewmap) {
+        if (app.number in app[viewmap[app.view][0]]) {
+          document.title = app[viewmap[app.view][0]][app.number][viewmap[app.view][1]].concat(' - YAFFI');
+        } else {
+          document.title = '404 - YAFFI';
+        }
       } else {
-        document.title = 'Yet Another Fanfic Index - YAFFI';
+        document.title = '404 - YAFFI';
       }
     }
+
+    window.addEventListener('hashchange', onHashchange);
 
     $.getJSON('/data.json', function(data) {
       app.fanfics = data.fanfics;
@@ -211,7 +187,11 @@ $( document ).ready(
       app.stats = data.stats;
       onHashchange();
     });
+  },
+});
 
-    window.addEventListener('hashchange', onHashchange);
+$( document ).ready(
+  function() {
+    app.$mount('#app');
   }
 );
