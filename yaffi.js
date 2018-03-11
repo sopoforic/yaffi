@@ -5,7 +5,7 @@ Vue.component('fic-div', {
     <h3>{{fanfic.title}}<br /><small>by
       <ul class="commaList">
         <li v-for="a in fanfic.authors.slice().sort(function (a, b) {return authors[a].name.localeCompare(authors[b].name, {sensitivity: 'base'})})">
-          <a :href="'#author-'.concat(a)">{{authors[a].name}}</a>
+          <a :href="'#!author/'.concat(a)">{{authors[a].name}}</a>
         </li>
       </ul></small></h3>
     <table>
@@ -26,7 +26,7 @@ Vue.component('fic-div', {
             <td>
               <ul class="commaList">
                 <li v-for="c in fanfic.categories.slice().sort(function (a, b) {return categories[a].name.localeCompare(categories[b].name, {sensitivity: 'base'})})">
-                  <a :href="'#category-'.concat(c)">{{categories[c].name}}</a>
+                  <a :href="'#!category/'.concat(c)">{{categories[c].name}}</a>
                 </li>
               </ul>
             </td>
@@ -36,7 +36,7 @@ Vue.component('fic-div', {
             <td>
               <ul class="commaList">
                 <li v-for="s in fanfic.sources.slice().sort(function (a, b) {return sources[a].name.localeCompare(sources[b].name, {sensitivity: 'base'})})">
-                  <a :href="'#source-'.concat(s)">{{sources[s].name}}</a>
+                  <a :href="'#!source/'.concat(s)">{{sources[s].name}}</a>
                 </li>
               </ul>
             </td>
@@ -46,7 +46,7 @@ Vue.component('fic-div', {
             <td>
               <ul class="commaList">
               <li v-for="c in fanfic.characters.slice().sort(function (a, b) {return characters[a].name.localeCompare(characters[b].name, {sensitivity: 'base'})})">
-                <a :href="'#character-'.concat(c)">{{characters[c].name}}</a>
+                <a :href="'#!character/'.concat(c)">{{characters[c].name}}</a>
               </li>
               </ul>
             </td>
@@ -56,7 +56,7 @@ Vue.component('fic-div', {
             <td>
               <ul class="commaList">
               <li v-for="p in fanfic.pairings.slice().sort(function (a, b) {return pairings[a].name.localeCompare(pairings[b].name, {sensitivity: 'base'})})">
-                <a :href="'#pairing-'.concat(p)">{{pairings[p].name}}</a>
+                <a :href="'#!pairing/'.concat(p)">{{pairings[p].name}}</a>
               </li>
               </ul>
             </td>
@@ -135,14 +135,14 @@ var app = new Vue({
     }
 
     function onHashchange() {
-      hash = window.location.hash.substr(1);
+      hash = window.location.hash.substr(2);
       if (hash.length > 0) {
-        app.view = hash.split('-')[0];
-        if (hash.includes('-')) {
+        app.view = hash.split('/')[0];
+        if (hash.includes('/')) {
           if (app.intviews.includes(app.view)) {
-            app.number = parseInt(hash.split('-')[1]);
+            app.number = parseInt(hash.split('/')[1]);
           } else {
-            app.number = hash.substr(hash.indexOf('-') + 1);
+            app.number = hash.substr(hash.indexOf('/') + 1);
           }
         } else {
             app.number = null;
