@@ -21,7 +21,7 @@ it is a goal of YAFFI to eventually index the entire Ranma section. Of
 approximately 2400 stories in the Ranma section, 42 are
 currently present in the index.
 
-The current version of this index was last updated on 2018-03-11 and
+The current version of this index was last updated on 2018-03-13 and
 contains 153 fanfics (143 complete),
 totalling 2345 pages. In addition, there are
-2198 fanfics queued to be added in future updates.
+2199 fanfics queued to be added in future updates.
